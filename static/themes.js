@@ -8,7 +8,7 @@ function changetheme() {
 
 function loadTheme() {
 	let newtheme = readCookie("theme");
-	if (newtheme == "") {
+	if (newtheme == null) {
 		newtheme = "britishrail.css";
 	}
     document.getElementById("theme_css").href = "static/"+newtheme;
