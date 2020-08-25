@@ -1,0 +1,99 @@
+body {
+    font-family:'Rail Alphabet Light', 'Bahnschrift', 'Helvetica', 'Arial', sans-serif;
+    display: flex;
+    flex-direction: column;
+    font-size: 14pt;
+}
+
+h1 {
+    padding: 12px 10px 10px 10px;
+}
+
+a {
+    text-decoration: underline;
+}
+
+a:hover {
+    color: black;
+}
+
+ul {
+    list-style: none;
+    margin-left: 0;
+    padding-left: 0;
+}
+
+.links {
+    padding-left: 1em;
+    text-indent: -1em;
+}
+
+.links:before {
+    content: 'ß';
+    padding-right: 5px;
+}
+
+.nav {
+    height: 60px;
+    line-height: 40px;
+    width: 360px;
+}
+
+.nav-link {
+    text-decoration: none;
+}
+
+.nav-link:hover {;
+    background-color: #BEC0B8;
+}
+
+.nav-selected {
+    color: white;
+}
+
+.content {
+    flex: 2 0 auto;
+    border-top: 1px solid black;
+    border-top-style: dotted;
+    border-bottom: 1px solid black;
+    border-bottom-style: dotted;
+}
+
+.footer {
+    position: relative;
+    bottom: 0;
+    width: 100%;
+    height: 90px;
+    line-height: 90px;
+}
+
+footer li {
+    display: inline;
+}
+
+.footlink {
+    padding: 10px 10px 10px 10px;
+}
+
+.rightalign {
+    text-align: right;
+    border: none;
+}
+
+@font-face {
+    font-family: 'Rail Alphabet Dark';
+    src: url('britrdn_-webfont.woff2') format('woff2'),
+         url('britrdn_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'Rail Alphabet Light';
+    src: url('britrln_.woff2') format('woff2'),
+         url('britrln_-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* The fonts used in this CSS file are a free variant of Rail Alphabet */

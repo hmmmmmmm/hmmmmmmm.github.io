@@ -7,7 +7,7 @@
         <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
         <link href="static/styles.css" rel="stylesheet">
         <link href="static/britishrail.css" rel="stylesheet" id="theme_css">
-        <title>The home of Eilidh Martin on the internet | eilidh.online</title>
+        <title>What am I like? | eilidh.online</title>
         <script src="static/themes.js"></script>
         <script>
             loadTheme();
@@ -17,13 +17,13 @@
         <div class="container">
             <ul class="nav">
                 <li class="nav-item">
-                    <a class="nav-link nav-selected" href="/index.html">Home</a>
+                    <a class="nav-link" href="/index.html">Home</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/projects.html">Projects</a>
                 </li>
                 <li class="nav-item">
-                    <a class="nav-link" href="/about.html">About</a>
+                    <a class="nav-link nav-selected" href="#">About</a>
                 </li>
                 <li class="nav-item">
                     <a class="nav-link" href="/links.html">Links</a>
@@ -31,8 +31,23 @@
             </ul>
 
             <div class="content">
-                <h1>= I'm Eilidh Martin</h1>
-                <h1 class="rightalign">And this is my website ®</h1>
+                <h1>≠ What am I about?</h1>
+                <p>As Fegan Floop once said:</p>
+
+                <h2>Who?</h2>
+                <p>I'm Eilidh Martin, a trans woman currently studying Computing at Glasgow Caledonian University.</p>
+
+                <h2>What?</h2>
+                <p>This is my website, mainly made for Harvard's <a href="https://cs50.harvard.edu/">CS50</a> course. I'll be including more content as I go along.</p>
+
+                <h2>When?</h2>
+                <p>Now. Just then. That moment too. Continuously as long as this page is open.</p>
+
+                <h2>Where?</h2>
+                <p>Glasgow (ish). (and online at <a href="/">eilidh.online</a>)</p>
+
+                <h2>and Why?</h2>
+                <p>Just because.</p>
             </div>
 
             <footer>
@@ -41,7 +56,7 @@
                 		<li><a class="footlink" href="mailto:me@eilidh.online">email</a></li>
         				<li><a class="footlink" href="https://github.com/hmmmmmmm">github</a></li>
         				<li>
-        				    <select name="theme" id="theme" onchange="changetheme(); return false;">
+        				    <select name="theme" id="theme" oninput="changetheme(); return false;">
         			            <option id="britishrail.css" value="britishrail.css">British Rail</option>
         			            <option id="railfreight.css" value="railfreight.css">Railfreight</option>
         			        </select>

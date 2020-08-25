@@ -1,0 +1,34 @@
+body {
+    color: black;
+    background-color: #BEC0B8;
+}
+
+h1 {
+    background-color: #EF3340;
+    color: #FFCD00;
+}
+
+a {
+    color: black;
+}
+
+a:hover {
+    background-color: #707372;
+}
+
+.nav-link {
+    background-color: #707372;
+    color: #FFCD00;
+}
+
+.nav-selected {
+    background-color: #EF3340;
+}
+
+.nav-selected:hover {
+    color: #EF3340;
+}
+
+.rightalign {
+    background-color: #005eb8;
+}
